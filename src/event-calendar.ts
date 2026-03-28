@@ -79,27 +79,27 @@ export function buildEventDescription(
   const parts: string[] = [];
 
   if (event.mainCard.length > 0) {
-    if (event.earlyPrelims.length > 0) {
-      parts.push(
-        sectionTitle("Early Prelims", event.earlyPrelimsTime, mainMs),
-        SECTION_RULE,
-        ...event.earlyPrelims,
-        ""
-      );
-    }
-    if (event.prelims.length > 0) {
-      parts.push(
-        sectionTitle("Prelims", event.prelimsTime, mainMs),
-        SECTION_RULE,
-        ...event.prelims,
-        ""
-      );
-    }
     parts.push(
       sectionTitle("Main Card", event.date, mainMs),
       SECTION_RULE,
       ...event.mainCard
     );
+    if (event.prelims.length > 0) {
+      parts.push(
+        "",
+        sectionTitle("Prelims", event.prelimsTime, mainMs),
+        SECTION_RULE,
+        ...event.prelims
+      );
+    }
+    if (event.earlyPrelims.length > 0) {
+      parts.push(
+        "",
+        sectionTitle("Early Prelims", event.earlyPrelimsTime, mainMs),
+        SECTION_RULE,
+        ...event.earlyPrelims
+      );
+    }
   } else if (event.fightCard.length > 0) {
     parts.push(...event.fightCard);
   }

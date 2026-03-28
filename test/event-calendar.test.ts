@@ -89,6 +89,23 @@ describe("buildEventDescription", () => {
     expect(desc).toContain("Accurate as of Mar 1, 2025, 12:00 PM EST");
   });
 
+  it("orders sections as Main Card, Prelims, Early Prelims", () => {
+    const event = sampleEvent({
+      earlyPrelims: ["Early vs. Early @135"],
+      earlyPrelimsTime: "1713480000",
+      prelimsTime: "1713487200",
+    });
+    const desc = buildEventDescription(event, "Jan 1, 2025");
+
+    const mainIdx = desc.indexOf("Main Card");
+    const prelimsIdx = desc.indexOf("Prelims");
+    const earlyIdx = desc.indexOf("Early Prelims");
+
+    expect(mainIdx).toBeGreaterThan(-1);
+    expect(prelimsIdx).toBeGreaterThan(mainIdx);
+    expect(earlyIdx).toBeGreaterThan(prelimsIdx);
+  });
+
   it("outputs only the flat fight card when main card is empty", () => {
     const event = sampleEvent({
       mainCard: [],
