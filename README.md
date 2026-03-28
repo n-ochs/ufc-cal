@@ -1,35 +1,56 @@
 # ufc-cal
 
-[Subscribe to this calendar to keep track of UFC events](https://clarencechaan.github.io/ufc-cal/)
+Live calendar feeds for UFC events—scraped from [ufc.com](https://www.ufc.com) and published as standard `.ics` files.
 
-Or subscribe manually from your calendar app using this URL:
+**Subscribe in the browser:** [n-ochs.github.io/ufc-cal](https://n-ochs.github.io/ufc-cal/) (pick Apple or Google, or copy the URL).
 
-`webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics`
+**Subscribe manually** with `webcal` (many calendar apps accept this as a subscription URL):
+
+| Feed | URL |
+|------|-----|
+| **All UFC events** | `webcal://raw.githubusercontent.com/n-ochs/ufc-cal/ics/UFC.ics` |
+| **Numbered events only** (e.g. UFC 327—not Fight Night cards) | `webcal://raw.githubusercontent.com/n-ochs/ufc-cal/ics/UFC-Numbered.ics` |
 
 ## What is this?
 
-A calendar feed that automatically adds UFC events to your calendar app of choice as each event gets announced and updated over time.
+A calendar feed that adds and updates UFC events as cards are announced or changed on the UFC site. Event descriptions include matchups, weight-class shorthand, title bouts, and main / prelims / early prelims sections when that data exists.
 
-This feed is not affiliated with the UFC.
+This project is **not affiliated with the UFC**.
 
-## Why is it better than other feeds?
+## Why use it?
 
-The three biggest points that this aims to address, which I found lacking in other calendar feeds:
-
-- **Always kept up to date**: events are added and card details are updated within a day of any changes posted by the UFC, including new events, fight additions, or removals
-- **Event times are accurate**: event times reflect your local timezone, and always match the times posted by the UFC
-- **Card details**: without leaving your calendar, you can see every (announced) fight on the card, whether it's on the main card, prelims, or early prelims
+- **Stays current**: the feed is regenerated on a schedule so listings track the site within hours of typical updates.
+- **Useful blocks of time**: each calendar entry runs from the **earliest** listed card (early prelims or prelims when present) through **three hours after main-card start**, so the block matches a full fight night.
+- **Card detail in the description**: see announced fights and sections without opening a browser.
 
 ## Example event
 
 ![Example event](./src/assets/ufc-cal-example.png)
 
-## Info for nerds
+## For contributors
 
-**How does it work?**
+**Run locally**
 
-- Using a GitHub Action, the UFC's website is scraped several times each day, and the `UFC.ics` file (from the URL above) is updated with any new information found
-  
-**To run locally:**
+1. Install [Bun](https://bun.sh).
+2. Clone the repo and run:
 
-- Install [Bun](https://bun.sh), clone this repo, run `bun install` then `bun run start`, and the script writes `UFC.ics` (and `UFC-Numbered.ics`) with the scraped UFC events
+   ```sh
+   bun install
+   bun run start
+   ```
+
+3. That writes `UFC.ics` and `UFC-Numbered.ics` in the current directory.
+
+The scraper validates payloads with **Zod** and builds ICS with the `ics` package.
+
+**Automated updates**
+
+On the `ics` branch, a GitHub Action runs **every four hours**: it checks out that branch, runs `bun install --frozen-lockfile` and `bun run start`, then commits updated `.ics` files when they change.
+
+## Credits
+
+Fork maintained by **[n-ochs](https://github.com/n-ochs)** — [github.com/n-ochs/ufc-cal](https://github.com/n-ochs/ufc-cal).
+
+Original project by **Clarence Chan**: [github.com/clarencechaan/ufc-cal](https://github.com/clarencechaan/ufc-cal).
+
+License: **ISC** (see upstream `package.json`).
