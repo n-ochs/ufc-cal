@@ -9,23 +9,39 @@ jobs:
   report:
     runs-on: ubuntu-latest
     steps:
+      # Run the scraper from default branch so CI picks up latest code. Calendar
+      # artifacts are still committed only to `ics` (see push step).
       - name: Check out repository code
         uses: actions/checkout@v5
         with:
-          ref: ics
+          ref: main
+          fetch-depth: 0
+
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
+
       - name: Create UFC.ics
         run: |
           bun install --frozen-lockfile
           bun run start
+
       - name: Push to repository
         run: |
+          mkdir -p /tmp/ufc-cal-out
+          cp UFC.ics UFC-Numbered.ics /tmp/ufc-cal-out/
+          rm -f UFC.ics UFC-Numbered.ics
+          git fetch origin ics
+          git checkout ics
+          cp /tmp/ufc-cal-out/UFC.ics /tmp/ufc-cal-out/UFC-Numbered.ics .
           git config user.name "n-ochs"
           git config user.email "69331380+n-ochs@users.noreply.github.com"
           git rm --ignore-unmatch UFC-PPV.ics
           git add UFC.ics UFC-Numbered.ics
-          git commit -m "Update UFC.ics and UFC-Numbered.ics"
-          git push -u origin ics
+          if git diff --staged --quiet; then
+            echo "No calendar changes to commit."
+          else
+            git commit -m "Update UFC.ics and UFC-Numbered.ics"
+            git push -u origin ics
+          fi
