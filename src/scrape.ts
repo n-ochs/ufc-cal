@@ -1,6 +1,9 @@
 import { parse, HTMLElement } from "node-html-parser";
 import { decode } from "html-entities";
 import { ufcEventSchema } from "./schema.js";
+import { Logger } from "./logger.js";
+
+const log = new Logger("scrape");
 
 /**
  * Returns an array of URLs of recent and upcoming UFC events
@@ -17,11 +20,12 @@ async function getEventURLs() {
       await Promise.all(pageURLs.map(getEventURLsFromPageURL))
     ).flat();
 
-    console.log("\nEvent URLs found:");
-    console.log(eventURLs.map((url) => url.href));
+    log.info("Event URLs found", {
+      urls: eventURLs.map((url) => url.href),
+    });
     return eventURLs;
   } catch (error) {
-    console.error(error);
+    log.error("getEventURLs failed", error);
     throw new Error("Failed to retrieve event URLs");
   }
 }
@@ -47,7 +51,7 @@ async function getEventURLsFromPageURL(url: URL) {
 
     return eventURLs;
   } catch (error) {
-    console.error(error);
+    log.error("getEventURLsFromPageURL failed", error, { url: url.href });
     throw new Error("Failed to retrieve event URLs from page URL");
   }
 }
@@ -160,7 +164,7 @@ async function getDetailsFromEventURL(url: URL) {
     let prelims: string[] = [];
     let earlyPrelims: string[] = [];
 
-    console.log(`\nGetting details from url: ${url.href}`);
+    log.info("Getting event details", { url: url.href });
 
     const mainCardElements = root.querySelectorAll(
       "#main-card .l-listing__item"
@@ -179,8 +183,10 @@ async function getDetailsFromEventURL(url: URL) {
       prelims = prelimsElements.map(convertLiToStr);
       earlyPrelims = earlyPrelimsElements.map(convertLiToStr);
 
-      console.log(`Main card length: ${mainCard.length}`);
-      console.log(`Prelims length: ${prelims.length}`);
+      log.debug("Parsed card sections", {
+        mainCard: mainCard.length,
+        prelims: prelims.length,
+      });
     } else {
       // Main card has not been announced, extract entire fight card
       const fightCardElements = root.querySelectorAll(
@@ -189,7 +195,9 @@ async function getDetailsFromEventURL(url: URL) {
 
       fightCard = fightCardElements.map(convertLiToStr);
 
-      console.log(`Fight card length: ${fightCard.length}`);
+      log.debug("Parsed fight card (no main/prelims split)", {
+        fightCard: fightCard.length,
+      });
     }
 
     // Deentitize HTML entities
@@ -213,7 +221,7 @@ async function getDetailsFromEventURL(url: URL) {
     });
     return details;
   } catch (error) {
-    console.error(error);
+    log.error("getDetailsFromEventURL failed", error, { url: url.href });
     throw new Error(`Failed to retrieve event: ${url.href}\n${error}`);
   }
 }
@@ -231,7 +239,7 @@ async function getAllDetailedEvents() {
     );
     return detailedEvents;
   } catch (error) {
-    console.error(error);
+    log.error("getAllDetailedEvents failed", error);
     throw new Error("Failed to retrieve all events");
   }
 }

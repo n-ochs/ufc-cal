@@ -1,4 +1,5 @@
 import { getAllDetailedEvents } from "./scrape.js";
+import { Logger } from "./logger.js";
 import * as fs from "fs";
 import { createEvents, type EventAttributes } from "ics";
 import {
@@ -7,6 +8,8 @@ import {
   toDateArray,
 } from "./event-calendar.js";
 import type { UFCEvent } from "./schema.js";
+
+const log = new Logger("ics");
 
 /**
  * Extracts the details of recent and upcoming UFC events, then creates an
@@ -21,8 +24,7 @@ async function createICS() {
       formatEventForCalendar(event, "UFC")
     );
 
-    console.log("\nDetailed events:");
-    console.log(formattedEvents);
+    log.info("Detailed events", { events: formattedEvents });
 
     const eventsData = createEvents(formattedEvents).value;
     if (eventsData) fs.writeFileSync("UFC.ics", eventsData);
@@ -38,7 +40,7 @@ async function createICS() {
     const numberedEventsData = createEvents(formattedNumberedEvents).value;
     if (numberedEventsData) fs.writeFileSync("UFC-Numbered.ics", numberedEventsData);
   } catch (error) {
-    console.error(error);
+    log.error("createICS failed", error);
   }
 }
 
