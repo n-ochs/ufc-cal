@@ -236,4 +236,4 @@ async function getAllDetailedEvents() {
   }
 }
 
-export { getAllDetailedEvents };
+export { getAllDetailedEvents, getDetailsFromEventURL, getEventURLs };
