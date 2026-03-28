@@ -110,7 +110,7 @@ function convertLiToStr(li: HTMLElement) {
 
   const redRankStr = ranks[0] ? ` (${ranks[0]})` : "";
   const blueRankStr = ranks[1] ? ` (${ranks[1]})` : "";
-  const titleTag = isTitleFight ? "[TITLE] " : "";
+  const titleTag = isTitleFight ? "🏆 " : "";
   fightStr += `${titleTag}${red}${redRankStr} vs. ${blue}${blueRankStr} @${weightClass}`;
 
   fightStr = decode(fightStr);
