@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20260412T010000Z
 DTEND:20260412T040000Z
 DESCRIPTION:[TITLE] Jiří Procházka (#2) vs. Carlos Ulberg (#3) @205\n[TITLE
@@ -18,13 +18,13 @@ DESCRIPTION:[TITLE] Jiří Procházka (#2) vs. Carlos Ulberg (#3) @205\n[TITLE
 	Pico @145\nCub Swanson vs. Nate Landwehr @145\nMateusz Gamrot (#8) vs. Est
 	eban Ribovics @155\nKevin Holland vs. Randy Brown @170\nTatiana Suarez (#2
 	) vs. Loopy Godinez (#6) @115\nKelvin Gastelum vs. Vicente Luque @185\n\nh
-	ttps://www.ufc.com/event/ufc-327\n\nAccurate as of Mar 28\, 12:08 PM EDT
+	ttps://www.ufc.com/event/ufc-327\n\nAccurate as of Mar 28\, 12:10 PM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-328
 SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20260510T010000Z
 DTEND:20260510T040000Z
 DESCRIPTION:[TITLE] Khamzat Chimaev (C) vs. Sean Strickland (#3) @185\nAlex
@@ -32,13 +32,13 @@ DESCRIPTION:[TITLE] Khamzat Chimaev (C) vs. Sean Strickland (#3) @185\nAlex
 	oaquin Buckley (#9) @170\nJan Błachowicz (#5) vs. Bogdan Guskov (#8) @205\
 	nKing Green vs. Jeremy Stephens @155\nAteba Gautier vs. Ozzy Diaz @185\nCl
 	ayton Carpenter vs. Jose Ochoa @125\n\nhttps://www.ufc.com/event/ufc-328\n
-	\nAccurate as of Mar 28\, 12:08 PM EDT
+	\nAccurate as of Mar 28\, 12:10 PM EDT
 LOCATION:Prudential Center\, Newark\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-326
 SUMMARY:UFC 326: Holloway vs Oliveira 2
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20260307T223000Z
 DTEND:20260308T050000Z
 DESCRIPTION:Early Prelims — Sat\, Mar 7\, 5:30 PM EST (3.5 hrs before Main)
@@ -51,13 +51,13 @@ DESCRIPTION:Early Prelims — Sat\, Mar 7\, 5:30 PM EST (3.5 hrs before Main)
 	 (C) vs. Charles Oliveira (#3) @155\nCaio Borralho (#7) vs. Reinier de Rid
 	der (#8) @185\nRob Font (#13) vs. Raul Rosas Jr. @135\nDrew Dober vs. Mich
 	ael Johnson\nGregory Rodrigues (#13) vs. Brunno Ferreira (#15) @185\n\nhtt
-	ps://www.ufc.com/event/ufc-326\n\nAccurate as of Mar 28\, 12:08 PM EDT
+	ps://www.ufc.com/event/ufc-326\n\nAccurate as of Mar 28\, 12:10 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-325
 SUMMARY:UFC 325: Volkanovski vs Lopes 2
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20260131T220000Z
 DTEND:20260201T050000Z
 DESCRIPTION:Early Prelims — Sat\, Jan 31\, 5:00 PM EST (4 hrs before Main)\
@@ -71,13 +71,13 @@ DESCRIPTION:Early Prelims — Sat\, Jan 31\, 5:00 PM EST (4 hrs before Main)\
 	Dan Hooker (#6) vs. Benoît Saint Denis (#8) @155\nRafael Fiziev (#9) vs. M
 	auricio Ruffy (#14) @155\nTai Tuivasa (#12) vs. Tallison Teixeira (#15) @2
 	65\nQuillan Salkilld vs. Jamie Mullarkey @155\n\nhttps://www.ufc.com/event
-	/ufc-325\n\nAccurate as of Mar 28\, 12:08 PM EDT
+	/ufc-325\n\nAccurate as of Mar 28\, 12:10 PM EDT
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-324
 SUMMARY:UFC 324: Gaethje vs Pimblett
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20260124T223000Z
 DTEND:20260125T050000Z
 DESCRIPTION:Early Prelims — Sat\, Jan 24\, 5:30 PM EST (3.5 hrs before Main
@@ -91,13 +91,13 @@ DESCRIPTION:Early Prelims — Sat\, Jan 24\, 5:30 PM EST (3.5 hrs before Main
 	ng (#5) @135\nWaldo Cortes Acosta (#5) vs. Derrick Lewis (#8) @265\nNatali
 	a Silva (#2) vs. Rose Namajunas (#6) @125\nArnold Allen (#6) vs. Jean Silv
 	a (#10) @145\n\nhttps://www.ufc.com/event/ufc-324\n\nAccurate as of Mar 28
-	\, 12:08 PM EDT
+	\, 12:10 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20260615T000000Z
 DTEND:20260615T030000Z
 DESCRIPTION:[TITLE] Ilia Topuria (C) vs. Justin Gaethje (#1) @155\n[TITLE] 
@@ -105,13 +105,13 @@ DESCRIPTION:[TITLE] Ilia Topuria (C) vs. Justin Gaethje (#1) @155\n[TITLE]
 	Zahabi (#6) @135\nMauricio Ruffy (#9) vs. Michael Chandler (#13) @155\nBo 
 	Nickal vs. Kyle Daukaus @185\nDiego Lopes (#2) vs. Steve Garcia (#9) @145\
 	n\nhttps://www.ufc.com/event/ufc-freedom-250\n\nAccurate as of Mar 28\, 12
-	:08 PM EDT
+	:10 PM EDT
 LOCATION:The White House\, Washington D.C.\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-323
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20251206T230000Z
 DTEND:20251207T060000Z
 DESCRIPTION:Early Prelims — Sat\, Dec 6\, 6:00 PM EST (4 hrs before Main)\n
@@ -126,13 +126,13 @@ DESCRIPTION:Early Prelims — Sat\, Dec 6\, 6:00 PM EST (4 hrs before Main)\n
 	E] Alexandre Pantoja (C) vs. Joshua Van (#1) @125\nBrandon Moreno (#2) vs.
 	 Tatsuro Taira (#5) @125\nHenry Cejudo (#10) vs. Payton Talbott @135\nJan 
 	Błachowicz (#5) vs. Bogdan Guskov (#11) @205\n\nhttps://www.ufc.com/event/
-	ufc-323\n\nAccurate as of Mar 28\, 12:08 PM EDT
+	ufc-323\n\nAccurate as of Mar 28\, 12:10 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-322
 SUMMARY:VeChain UFC 322: Della Maddalena vs Makhachev
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20251115T230000Z
 DTEND:20251116T060000Z
 DESCRIPTION:Early Prelims — Sat\, Nov 15\, 6:00 PM EST (4 hrs before Main)\
@@ -147,13 +147,13 @@ DESCRIPTION:Early Prelims — Sat\, Nov 15\, 6:00 PM EST (4 hrs before Main)\
 	ev @170\n[TITLE] Valentina Shevchenko (C) vs. Zhang Weili @125\nSean Brady
 	 (#2) vs. Michael Morales (#8) @170\nLeon Edwards (#4) vs. Carlos Prates (
 	#9) @170\nBeneil Dariush (#9) vs. Benoît Saint Denis (#13) @155\n\nhttps:/
-	/www.ufc.com/event/ufc-322\n\nAccurate as of Mar 28\, 12:08 PM EDT
+	/www.ufc.com/event/ufc-322\n\nAccurate as of Mar 28\, 12:10 PM EDT
 LOCATION:Madison Square Garden\, New York\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-321
 SUMMARY:UFC 321: Aspinall vs Gane
-DTSTAMP:20260328T160836Z
+DTSTAMP:20260328T161037Z
 DTSTART:20251025T140000Z
 DTEND:20251025T210000Z
 DESCRIPTION:Prelims — Sat\, Oct 25\, 10:00 AM EDT (4 hrs before Main)\n----
@@ -167,7 +167,7 @@ DESCRIPTION:Prelims — Sat\, Oct 25\, 10:00 AM EDT (4 hrs before Main)\n----
 	Nurmagomedov (#2) vs. Mario Bautista (#9) @135\nAleksandar Rakić (#7) vs. 
 	Azamat Murzakanov (#10) @205\nAlexander Volkov (#2) vs. Jailton Almeida (#
 	5) @265\n\nhttps://www.ufc.com/event/ufc-321\n\nAccurate as of Mar 28\, 12
-	:08 PM EDT
+	:10 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 END:VEVENT
 END:VCALENDAR
