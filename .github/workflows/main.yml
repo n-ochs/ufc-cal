@@ -23,8 +23,8 @@ jobs:
           bun run start
       - name: Push to repository
         run: |
-          git config --global user.name "Clarence Chan"
-          git config --global user.email "clarencechaan@icloud.com"
+          git config user.name "n-ochs"
+          git config user.email "69331380+n-ochs@users.noreply.github.com"
           git rm --ignore-unmatch UFC-PPV.ics
           git add UFC.ics UFC-Numbered.ics
           git commit -m "Update UFC.ics and UFC-Numbered.ics"
