@@ -32,4 +32,4 @@ The three biggest points that this aims to address, which I found lacking in oth
   
 **To run locally:**
 
-- Clone this repo, run the commands `npm install`, then `npm start`, and out spits your `UFC.ics` file with all the relevant UFC events
+- Install [Bun](https://bun.sh), clone this repo, run `bun install` then `bun run start`, and the script writes `UFC.ics` (and `UFC-Numbered.ics`) with the scraped UFC events

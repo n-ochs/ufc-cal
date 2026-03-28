@@ -1,6 +1,12 @@
 import { getAllDetailedEvents } from "./scrape.js";
 import * as fs from "fs";
-import { createEvents, type DateArray, type EventAttributes } from "ics";
+import { createEvents, type EventAttributes } from "ics";
+import {
+  buildEventDescription,
+  getCalendarStartEnd,
+  toDateArray,
+} from "./event-calendar.js";
+import type { UFCEvent } from "./schema.js";
 
 /**
  * Extracts the details of recent and upcoming UFC events, then creates an
@@ -11,7 +17,6 @@ async function createICS() {
     const events = await getAllDetailedEvents();
     if (!events?.length) throw new Error("No events retrieved");
 
-    // Convert event details in the format in accordance with the ICS generator
     const formattedEvents = events.map((event) =>
       formatEventForCalendar(event, "UFC")
     );
@@ -19,21 +24,19 @@ async function createICS() {
     console.log("\nDetailed events:");
     console.log(formattedEvents);
 
-    // Create UFC.ics
     const eventsData = createEvents(formattedEvents).value;
     if (eventsData) fs.writeFileSync("UFC.ics", eventsData);
 
-    // Filter for PPV events only
-    const ppvEvents = events.filter(
+    /** Numbered events (e.g. UFC 300), excluding Fight Night cards. */
+    const numberedEvents = events.filter(
       (event) => !event.name.includes("Fight Night")
     );
-    const formattedPPVEvents = ppvEvents.map((event) =>
-      formatEventForCalendar(event, "UFC-PPV")
+    const formattedNumberedEvents = numberedEvents.map((event) =>
+      formatEventForCalendar(event, "UFC-Numbered")
     );
 
-    // Create UFC-PPV.ics
-    const ppvEventsData = createEvents(formattedPPVEvents).value;
-    if (ppvEventsData) fs.writeFileSync("UFC-PPV.ics", ppvEventsData);
+    const numberedEventsData = createEvents(formattedNumberedEvents).value;
+    if (numberedEventsData) fs.writeFileSync("UFC-Numbered.ics", numberedEventsData);
   } catch (error) {
     console.error(error);
   }
@@ -43,74 +46,34 @@ function formatEventForCalendar(
   event: UFCEvent,
   calName = "UFC"
 ): EventAttributes {
-  const date = new Date(parseInt(event.date) * 1000);
-  const start: DateArray = [
-    date.getFullYear(),
-    date.getMonth() + 1,
-    date.getDate(),
-    date.getHours(),
-    date.getMinutes(),
-  ];
-  const duration: { hours: number } = { hours: 3 };
+  const { start, end } = getCalendarStartEnd(event);
+  const startArr = toDateArray(start);
+  const endArr = toDateArray(end);
+
   const title = event.name;
-  let description = "";
 
-  // Distinguish between main card and prelims if this information has been
-  // announced by the UFC, otherwise list all fights without categorizing
-  if (event.fightCard.length) description = `${event.fightCard.join("\n")}\n`;
-  if (event.mainCard.length)
-    description += `Main Card\n--------------------\n${event.mainCard.join(
-      "\n"
-    )}\n`;
-  if (event.prelims.length) {
-    description += "\nPrelims";
-    if (event.prelimsTime) {
-      const prelimsTime = new Date(parseInt(event.prelimsTime) * 1000);
-      const hoursAgo = (+date - +prelimsTime) / 1000 / 60 / 60;
-      if (hoursAgo > 0) description += ` (${hoursAgo} hrs before Main)`;
-    }
-    description += `\n--------------------\n${event.prelims.join("\n")}\n`;
-  }
-  if (event.earlyPrelims.length) {
-    description += "\nEarly Prelims";
-    if (event.earlyPrelimsTime) {
-      const earlyPrelimsTime = new Date(
-        parseInt(event.earlyPrelimsTime) * 1000
-      );
-      const hoursAgo = (+date - +earlyPrelimsTime) / 1000 / 60 / 60;
-      if (hoursAgo > 0) description += ` (${hoursAgo} hrs before Main)`;
-    }
-    description += `\n--------------------\n${event.earlyPrelims.join("\n")}\n`;
-  }
-  if (description.length) description += "\n";
-  description += `${event.url}`;
-
-  // Get current date and time to communicate to the user how up-to-date
-  // the event details are
-  const dateTimestr = new Date().toLocaleString("en-US", {
+  const accurateAsOf = new Date().toLocaleString("en-US", {
     month: "short",
     day: "numeric",
     hour: "numeric",
     minute: "numeric",
-    timeZone: "America/Toronto",
+    timeZone: "America/New_York",
     timeZoneName: "short",
   });
-  description += `\n\nAccurate as of ${dateTimestr}`;
 
+  const description = buildEventDescription(event, accurateAsOf);
   const location = event.location;
   const uid = event.url.href;
 
-  const calendarEvent = {
-    start,
-    duration,
+  return {
+    start: startArr,
+    end: endArr,
     title,
     description,
     location,
     uid,
     calName,
   };
-
-  return calendarEvent;
 }
 
 createICS();

@@ -9,18 +9,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        # https://github.com/actions/checkout/tree/v3.0.2
         uses: actions/checkout@v4
         with:
           ref: ics
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
       - name: Create UFC.ics
         run: |
-          npm install
-          npm start
+          bun install --frozen-lockfile
+          bun run start
       - name: Push to repository
         run: |
           git config --global user.name "Clarence Chan"
           git config --global user.email "clarencechaan@icloud.com"
-          git add UFC.ics UFC-PPV.ics
-          git commit -m "Update UFC.ics and UFC-PPV.ics"
+          git rm --ignore-unmatch UFC-PPV.ics
+          git add UFC.ics UFC-Numbered.ics
+          git commit -m "Update UFC.ics and UFC-Numbered.ics"
           git push -u origin ics

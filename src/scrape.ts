@@ -1,5 +1,6 @@
 import { parse, HTMLElement } from "node-html-parser";
 import { decode } from "html-entities";
+import { ufcEventSchema } from "./schema.js";
 
 /**
  * Returns an array of URLs of recent and upcoming UFC events
@@ -67,9 +68,11 @@ function convertLiToStr(li: HTMLElement) {
       ?.textContent?.trim()
       .replace(" vs ", " vs. ");
     if (!textContent) return "";
-    fightStr += `• ${textContent}`;
-    return fightStr;
+    fightStr += textContent;
+    return decode(fightStr);
   }
+
+  const isTitleFight = /\btitle bout\b/i.test(bout);
 
   let weightClass = "";
 
@@ -107,9 +110,9 @@ function convertLiToStr(li: HTMLElement) {
 
   const redRankStr = ranks[0] ? ` (${ranks[0]})` : "";
   const blueRankStr = ranks[1] ? ` (${ranks[1]})` : "";
-  fightStr += `• ${red}${redRankStr} vs. ${blue}${blueRankStr} @${weightClass}`;
+  const titleTag = isTitleFight ? "[TITLE] " : "";
+  fightStr += `${titleTag}${red}${redRankStr} vs. ${blue}${blueRankStr} @${weightClass}`;
 
-  // Deentitize HTML entities
   fightStr = decode(fightStr);
 
   return fightStr;
@@ -196,7 +199,7 @@ async function getDetailsFromEventURL(url: URL) {
       throw new Error("Failed to retrieve event details");
     }
 
-    const details: UFCEvent = {
+    const details = ufcEventSchema.parse({
       name,
       url,
       date,
@@ -205,9 +208,9 @@ async function getDetailsFromEventURL(url: URL) {
       mainCard,
       prelims,
       earlyPrelims,
-      prelimsTime,
-      earlyPrelimsTime,
-    };
+      prelimsTime: prelimsTime || undefined,
+      earlyPrelimsTime: earlyPrelimsTime || undefined,
+    });
     return details;
   } catch (error) {
     console.error(error);

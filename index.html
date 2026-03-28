@@ -3,152 +3,450 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Subscribe to a live-updating UFC events calendar for Apple Calendar, Google Calendar, and more."
+    />
     <title>UFC Calendar</title>
     <link rel="icon" type="image/x-icon" href="./src/assets/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      :root {
+        --bg0: #08090c;
+        --bg1: #0f1117;
+        --surface: #161922;
+        --surface-hover: #1c2030;
+        --border: rgba(255, 255, 255, 0.06);
+        --border-strong: rgba(255, 255, 255, 0.1);
+        --text: #f0f2f7;
+        --muted: #8b909d;
+        --muted2: #5c6270;
+        --accent: #e85d4c;
+        --accent-soft: rgba(232, 93, 76, 0.12);
+        --glow: rgba(232, 93, 76, 0.15);
+        --radius: 14px;
+        --radius-sm: 10px;
+        --font: "Inter", system-ui, -apple-system, sans-serif;
+        --mono: "JetBrains Mono", ui-monospace, monospace;
+        --shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.45);
+        --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      }
+
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
       body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        background-color: rgb(243, 243, 243);
-        font-family: "Inter", sans-serif;
-      }
-      .calendar-type-selector {
-        margin: 20px 0;
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .calendar-type-selector label {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        cursor: pointer;
-        font-size: 16px;
-        line-height: 1;
-      }
-      .calendar-type-selector input[type="radio"] {
-        cursor: pointer;
-        width: 18px;
-        height: 18px;
         margin: 0;
+        min-height: 100dvh;
+        font-family: var(--font);
+        color: var(--text);
+        background: var(--bg0);
+        background-image:
+          radial-gradient(ellipse 120% 80% at 50% -40%, var(--glow), transparent),
+          radial-gradient(ellipse 60% 50% at 100% 0%, rgba(80, 60, 180, 0.08), transparent),
+          linear-gradient(180deg, var(--bg1) 0%, var(--bg0) 45%);
+        line-height: 1.5;
       }
-      .links {
-        margin: 40px 20px;
+
+      .page {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: clamp(2rem, 5vw, 3.5rem) 1.5rem 3rem;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 16px;
+        flex-direction: column;
+        min-height: 100dvh;
       }
-      .sub-link {
+
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .eyebrow {
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted2);
+        margin: 0 0 0.75rem;
+      }
+
+      h1 {
+        font-size: clamp(1.65rem, 4.5vw, 2rem);
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        line-height: 1.15;
+        margin: 0 0 0.65rem;
+      }
+
+      .lede {
+        margin: 0 auto;
+        max-width: 34ch;
+        color: var(--muted);
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      main {
+        flex: 1;
+      }
+
+      .panel {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 1.25rem 1.35rem 1.35rem;
+        box-shadow: var(--shadow);
+      }
+
+      .panel-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin: 0 0 0.85rem;
+      }
+
+      .segmented {
+        display: flex;
+        padding: 4px;
+        border-radius: var(--radius-sm);
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid var(--border);
+        gap: 4px;
+      }
+
+      .segmented label {
+        flex: 1;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .segmented input {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .segmented span {
+        display: block;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: var(--muted);
+        padding: 0.55rem 0.75rem;
+        border-radius: calc(var(--radius-sm) - 2px);
+        transition:
+          color 0.2s var(--ease),
+          background 0.2s var(--ease),
+          box-shadow 0.2s var(--ease);
+      }
+
+      .segmented input:checked + span {
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.07);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+      }
+
+      .segmented label:hover input:not(:checked) + span {
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.03);
+      }
+
+      .providers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      @media (max-width: 520px) {
+        .providers {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .provider {
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 16px;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0px 4px 12px -3px rgba(0, 0, 0, 0.2);
-        padding: 16px 32px;
+        gap: 1rem;
+        padding: 1.5rem 1.25rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
         text-decoration: none;
         color: inherit;
-        transition: 0.3s;
+        transition:
+          border-color 0.2s var(--ease),
+          background 0.2s var(--ease),
+          transform 0.2s var(--ease);
       }
-      .sub-link:hover {
-        box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.2);
+
+      .provider:hover {
+        border-color: var(--border-strong);
+        background: var(--surface-hover);
+        transform: translateY(-2px);
       }
-      .sub-link img {
-        width: 80px;
-        height: 80px;
+
+      .provider:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
       }
-      .sub-manual {
-        margin-bottom: 40px;
-        max-width: 100%;
+
+      .provider img {
+        width: 56px;
+        height: 56px;
       }
-      .code-wrapper {
-        background-color: white;
-        padding: 2px 6px;
-        border: 1px solid lightgray;
-        border-radius: 4px;
+
+      .provider-name {
+        font-weight: 600;
+        font-size: 0.95rem;
       }
-      code {
-        overflow-wrap: break-word;
-        max-width: 100%;
+
+      .manual {
+        margin-top: 1.5rem;
+      }
+
+      .manual p {
+        margin: 0 0 0.65rem;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      .url-row {
+        display: flex;
+        gap: 0.5rem;
+        align-items: stretch;
+      }
+
+      @media (max-width: 520px) {
+        .url-row {
+          flex-direction: column;
+        }
+      }
+
+      .code-box {
+        flex: 1;
+        min-width: 0;
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-sm);
+        padding: 0.65rem 0.85rem;
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        line-height: 1.45;
+        color: #c8ccd6;
+        word-break: break-all;
+      }
+
+      .copy-btn {
+        flex-shrink: 0;
+        font-family: var(--font);
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--text);
+        background: var(--accent-soft);
+        border: 1px solid rgba(232, 93, 76, 0.25);
+        border-radius: var(--radius-sm);
+        padding: 0.55rem 1rem;
+        cursor: pointer;
+        transition:
+          background 0.2s var(--ease),
+          border-color 0.2s var(--ease);
+      }
+
+      .copy-btn:hover {
+        background: rgba(232, 93, 76, 0.2);
+        border-color: rgba(232, 93, 76, 0.4);
+      }
+
+      .copy-btn:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
+      .copy-btn.copied {
+        border-color: rgba(80, 200, 140, 0.5);
+        background: rgba(80, 200, 140, 0.12);
+      }
+
+      footer {
+        margin-top: 3rem;
+        padding-top: 1.75rem;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+
+      footer a {
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        transition: border-color 0.2s var(--ease);
+      }
+
+      footer a:hover {
+        border-bottom-color: var(--accent);
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.35rem 0.75rem;
+        margin-bottom: 1rem;
+      }
+
+      .credit {
+        margin: 0;
+        max-width: 42ch;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.55;
+      }
+
+      .disclaimer {
+        margin: 1rem 0 0;
+        font-size: 0.78rem;
+        color: var(--muted2);
       }
     </style>
   </head>
   <body>
-    <h1>Subscribe to this calendar to keep track of UFC events</h1>
-    <div class="calendar-type-selector">
-      <label>
-        <input
-          type="radio"
-          name="calendar-type"
-          value="all"
-          checked
-          onchange="updateCalendarLinks('all')"
-        />
-        <span>All UFC Events</span>
-      </label>
-      <label>
-        <input
-          type="radio"
-          name="calendar-type"
-          value="ppv"
-          onchange="updateCalendarLinks('ppv')"
-        />
-        <span>PPV Events Only</span>
-      </label>
+    <div class="page">
+      <header>
+        <p class="eyebrow">Subscribe</p>
+        <h1>UFC events on your calendar</h1>
+        <p class="lede">
+          One-tap subscribe for Apple or Google. Feed updates as cards are
+          announced.
+        </p>
+      </header>
+
+      <main>
+        <div class="panel">
+          <p class="panel-label">Calendar</p>
+          <div class="segmented" role="radiogroup" aria-label="Which events to include">
+            <label>
+              <input
+                type="radio"
+                name="calendar-type"
+                value="all"
+                checked
+                onchange="updateCalendarLinks('all')"
+              />
+              <span>All UFC events</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="calendar-type"
+                value="numbered"
+                onchange="updateCalendarLinks('numbered')"
+              />
+              <span>Numbered events only</span>
+            </label>
+          </div>
+
+          <div class="providers">
+            <a
+              class="provider"
+              id="apple-link"
+              href="webcal://raw.githubusercontent.com/n-ochs/ufc-cal/ics/UFC.ics"
+            >
+              <img src="./src/assets/apple.svg" alt="" width="56" height="56" />
+              <span class="provider-name">Apple Calendar</span>
+            </a>
+            <a
+              class="provider"
+              id="google-link"
+              href="https://calendar.google.com/calendar/u/0/r?cid=webcal://raw.githubusercontent.com/n-ochs/ufc-cal/ics/UFC.ics"
+            >
+              <img src="./src/assets/google.svg" alt="" width="56" height="56" />
+              <span class="provider-name">Google Calendar</span>
+            </a>
+          </div>
+
+          <div class="manual">
+            <p>Manual setup — paste this URL in your app:</p>
+            <div class="url-row">
+              <code class="code-box" id="manual-url"
+                >webcal://raw.githubusercontent.com/n-ochs/ufc-cal/ics/UFC.ics</code
+              >
+              <button type="button" class="copy-btn" id="copy-btn">
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer-links">
+          <a href="https://github.com/n-ochs/ufc-cal">GitHub — n-ochs/ufc-cal</a>
+        </div>
+        <p class="credit">
+          Fork maintained by
+          <a href="https://github.com/n-ochs">n-ochs</a>. Original idea and
+          project by
+          <a href="https://github.com/clarencechaan">Clarence Chan</a>
+          (<a href="https://github.com/clarencechaan/ufc-cal">ufc-cal</a>).
+        </p>
+        <p class="disclaimer">
+          Not affiliated with the UFC.
+        </p>
+      </footer>
     </div>
-    <div class="links">
-      <a
-        class="sub-link"
-        id="apple-link"
-        href="webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics"
-        ><img src="./src/assets/apple.svg" alt="apple" />
-        <div>Apple</div>
-      </a>
-      <a
-        class="sub-link"
-        id="google-link"
-        href="https://calendar.google.com/calendar/u/0/r?cid=webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics"
-        ><img src="./src/assets/google.svg" alt="google" />
-        <div>Google</div>
-      </a>
-    </div>
-    <div class="sub-manual">
-      <p>Or subscribe manually from your calendar app using this URL:</p>
-      <div class="code-wrapper">
-        <code id="manual-url"
-          >webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics</code
-        >
-      </div>
-    </div>
-    <p>Maintained by Clarence Chan</p>
-    <p>
-      <a href="https://github.com/clarencechaan/ufc-cal"
-        >Source code on GitHub</a
-      >
-    </p>
+
     <script>
+      const RAW_BASE =
+        "webcal://raw.githubusercontent.com/n-ochs/ufc-cal/ics/";
+
       function updateCalendarLinks(type) {
-        const filename = type === "ppv" ? "UFC-PPV.ics" : "UFC.ics";
-        const baseUrl =
-          "webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/";
-        const fullUrl = baseUrl + filename;
+        const filename =
+          type === "numbered" ? "UFC-Numbered.ics" : "UFC.ics";
+        const fullUrl = RAW_BASE + filename;
 
         document.getElementById("apple-link").href = fullUrl;
         document.getElementById("google-link").href =
           "https://calendar.google.com/calendar/u/0/r?cid=" + fullUrl;
-        document.getElementById("manual-url").textContent = fullUrl;
+        const manual = document.getElementById("manual-url");
+        manual.textContent = fullUrl;
       }
+
+      document.getElementById("copy-btn").addEventListener("click", async () => {
+        const text = document.getElementById("manual-url").textContent;
+        const btn = document.getElementById("copy-btn");
+        try {
+          await navigator.clipboard.writeText(text);
+          btn.textContent = "Copied";
+          btn.classList.add("copied");
+          setTimeout(() => {
+            btn.textContent = "Copy";
+            btn.classList.remove("copied");
+          }, 2000);
+        } catch {
+          btn.textContent = "Copy";
+        }
+      });
     </script>
   </body>
 </html>
