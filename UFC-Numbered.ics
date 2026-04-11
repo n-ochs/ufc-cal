@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20260411T213000Z
 DTEND:20260412T040000Z
 DESCRIPTION:Main Card — Sat\, Apr 11\, 9:00 PM EDT\n------------------\n🏆 J
@@ -22,13 +22,13 @@ DESCRIPTION:Main Card — Sat\, Apr 11\, 9:00 PM EDT\n------------------\n🏆 J
 	EDT (3.5 hrs before Main)\n------------------\nChris Padilla vs. MarQuel M
 	ederos @155\nKelvin Gastelum vs. Vicente Luque @185\nCharles Radtke vs. Fr
 	ancisco Prado @170\n\nhttps://www.ufc.com/event/ufc-327\n\nAccurate as of 
-	Apr 11\, 8:15 AM EDT
+	Apr 11\, 12:11 PM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-328
 SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20260509T210000Z
 DTEND:20260510T040000Z
 DESCRIPTION:Main Card — Sat\, May 9\, 9:00 PM EDT\n------------------\n🏆 Kh
@@ -41,13 +41,13 @@ DESCRIPTION:Main Card — Sat\, May 9\, 9:00 PM EDT\n------------------\n🏆 Kh
 	 Prelims — Sat\, May 9\, 5:00 PM EDT (4 hrs before Main)\n----------------
 	--\nRoman Kopylov vs. Marco Tulio @185\nClayton Carpenter vs. Jose Ochoa @
 	125\nBaisangur Susurkaev vs. Djorden Santos @185\n\nhttps://www.ufc.com/ev
-	ent/ufc-328\n\nAccurate as of Apr 11\, 8:15 AM EDT
+	ent/ufc-328\n\nAccurate as of Apr 11\, 12:11 PM EDT
 LOCATION:Prudential Center\, Newark\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-326
 SUMMARY:UFC 326: Holloway vs Oliveira 2
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20260307T223000Z
 DTEND:20260308T050000Z
 DESCRIPTION:Main Card — Sat\, Mar 7\, 9:00 PM EST\n------------------\nMax 
@@ -60,37 +60,37 @@ DESCRIPTION:Main Card — Sat\, Mar 7\, 9:00 PM EST\n------------------\nMax
 	gal Tumendemberel @125\n\nEarly Prelims — Sat\, Mar 7\, 5:30 PM EST (3.5 h
 	rs before Main)\n------------------\nSumudaerji vs. Jesus Aguilar @125\nRa
 	fael Tobias vs. Diyar Nurgozhay @205\nLuke Fernandez vs. Rodolfo Bellato @
-	205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate as of Apr 11\, 8:15 A
-	M EDT
+	205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate as of Apr 11\, 12:11 
+	PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20260615T000000Z
 DTEND:20260615T030000Z
 DESCRIPTION:🏆 Ilia Topuria (C) vs. Justin Gaethje (IC) @155\n🏆 Alex Pereira
 	 (C) vs. Ciryl Gane (#1) @265\nSean O'Malley (#2) vs. Aiemann Zahabi (#6) 
 	@135\nMauricio Ruffy (#10) vs. Michael Chandler (#13) @155\nBo Nickal vs. 
 	Kyle Daukaus @185\nDiego Lopes (#2) vs. Steve Garcia (#9) @145\n\nhttps://
-	www.ufc.com/event/ufc-freedom-250\n\nAccurate as of Apr 11\, 8:15 AM EDT
+	www.ufc.com/event/ufc-freedom-250\n\nAccurate as of Apr 11\, 12:11 PM EDT
 LOCATION:The White House\, Washington D.C.\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: TBD vs TBD
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20260711T220000Z
 DTEND:20260712T010000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-329\n\nAccurate as of Apr 11\, 8:
-	15 AM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-329\n\nAccurate as of Apr 11\, 12
+	:11 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-325
 SUMMARY:UFC 325: Volkanovski vs Lopes 2
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20260131T220000Z
 DTEND:20260201T050000Z
 DESCRIPTION:Main Card — Sat\, Jan 31\, 9:00 PM EST\n------------------\n🏆 A
@@ -104,13 +104,13 @@ DESCRIPTION:Main Card — Sat\, Jan 31\, 9:00 PM EST\n------------------\n🏆 A
 	 EST (4 hrs before Main)\n------------------\nKaan Ofli vs. Yizha @145\nSa
 	ngWook Kim vs. Dom Mar Fan @155\nKeiichiro Nakamura vs. Sebastian Szalay @
 	145\nSulangrangbo vs. Lawrence Lui @135\n\nhttps://www.ufc.com/event/ufc-3
-	25\n\nAccurate as of Apr 11\, 8:15 AM EDT
+	25\n\nAccurate as of Apr 11\, 12:11 PM EDT
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-324
 SUMMARY:UFC 324: Gaethje vs Pimblett
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20260124T223000Z
 DTEND:20260125T050000Z
 DESCRIPTION:Main Card — Sat\, Jan 24\, 9:00 PM EST\n------------------\n🏆 J
@@ -123,14 +123,14 @@ DESCRIPTION:Main Card — Sat\, Jan 24\, 9:00 PM EST\n------------------\n🏆 J
 	Modestas Bukauskas @205\nAlex Perez (#11) vs. Charles Johnson (#13) @125\n
 	\nEarly Prelims — Sat\, Jan 24\, 5:30 PM EST (3.5 hrs before Main)\n------
 	------------\nJosh Hokit vs. Denzel Freeman @265\nAdam Fugitt vs. Ty Mille
-	r @170\n\nhttps://www.ufc.com/event/ufc-324\n\nAccurate as of Apr 11\, 8:1
-	5 AM EDT
+	r @170\n\nhttps://www.ufc.com/event/ufc-324\n\nAccurate as of Apr 11\, 12:
+	11 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-323
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20251206T230000Z
 DTEND:20251207T060000Z
 DESCRIPTION:Main Card — Sat\, Dec 6\, 10:00 PM EST\n------------------\n🏆 M
@@ -145,13 +145,13 @@ DESCRIPTION:Main Card — Sat\, Dec 6\, 10:00 PM EST\n------------------\n🏆 M
 	. Brunno Ferreira @185\nEdson Barboza vs. Jalin Turner @155\nIwo Baraniews
 	ki vs. Ibo Aslan @205\nMansur Abdul-Malik vs. Antonio Trocoli @185\nMuhamm
 	ad Naimov vs. Mairon Santos @145\n\nhttps://www.ufc.com/event/ufc-323\n\nA
-	ccurate as of Apr 11\, 8:15 AM EDT
+	ccurate as of Apr 11\, 12:11 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-322
 SUMMARY:VeChain UFC 322: Della Maddalena vs Makhachev
-DTSTAMP:20260411T121502Z
+DTSTAMP:20260411T161136Z
 DTSTART:20251115T230000Z
 DTEND:20251116T060000Z
 DESCRIPTION:Main Card — Sat\, Nov 15\, 10:00 PM EST\n------------------\n🏆 
@@ -166,7 +166,7 @@ DESCRIPTION:Main Card — Sat\, Nov 15\, 10:00 PM EST\n------------------\n🏆
 	us vs. Gerald Meerschaert @185\nPat Sabatini vs. Chepe Mariscal @145\nAnge
 	la Hill (#12) vs. Fatima Kline @115\nBaisangur Susurkaev vs. Eric McConico
 	 @185\nViacheslav Borshchev vs. Matheus Camilo @155\n\nhttps://www.ufc.com
-	/event/ufc-322\n\nAccurate as of Apr 11\, 8:15 AM EDT
+	/event/ufc-322\n\nAccurate as of Apr 11\, 12:11 PM EDT
 LOCATION:Madison Square Garden\, New York\, United States
 END:VEVENT
 END:VCALENDAR
