@@ -232,11 +232,29 @@ async function getDetailsFromEventURL(url: URL) {
 async function getAllDetailedEvents() {
   try {
     const eventURLs = await getEventURLs();
+    const urls = eventURLs ?? [];
 
-    // Get UFC events from URLs
-    const detailedEvents = await Promise.all(
-      eventURLs?.map(getDetailsFromEventURL)
+    const settled = await Promise.allSettled(
+      urls.map((url) => getDetailsFromEventURL(url))
     );
+
+    const detailedEvents = [];
+    for (let i = 0; i < settled.length; i++) {
+      const result = settled[i];
+      if (result.status === "fulfilled") {
+        detailedEvents.push(result.value);
+      } else {
+        log.error("Skipping event page that failed to parse", {
+          url: urls[i]?.href,
+          reason: result.reason,
+        });
+      }
+    }
+
+    if (!detailedEvents.length) {
+      throw new Error("Failed to retrieve any events");
+    }
+
     return detailedEvents;
   } catch (error) {
     log.error("getAllDetailedEvents failed", error);
