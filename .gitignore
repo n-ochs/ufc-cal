@@ -24,6 +24,10 @@ dist/
 build/
 *.tsbuildinfo
 
+# Generated ICS (local `bun run start`; calendars live on `ics` branch)
+UFC.ics
+UFC-Numbered.ics
+
 # Test / coverage
 coverage/
 
