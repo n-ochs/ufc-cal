@@ -16,32 +16,44 @@ const log = new Logger("ics");
  * ICS file named "UFC.ics" in the current directory containing these events
  */
 async function createICS() {
-  try {
-    const events = await getAllDetailedEvents();
-    if (!events?.length) throw new Error("No events retrieved");
+  const events = await getAllDetailedEvents();
+  if (!events?.length) throw new Error("No events retrieved");
 
-    const formattedEvents = events.map((event) =>
-      formatEventForCalendar(event, "UFC")
+  const formattedEvents = events.map((event) =>
+    formatEventForCalendar(event, "UFC")
+  );
+
+  log.info("Detailed events", { events: formattedEvents });
+
+  const allIcs = createEvents(formattedEvents);
+  const eventsData = allIcs.value;
+  if (!eventsData) {
+    throw new Error(
+      allIcs.error?.message
+        ? `Failed to build UFC.ics: ${allIcs.error.message}`
+        : "Failed to build UFC.ics (ics library returned no data)"
     );
-
-    log.info("Detailed events", { events: formattedEvents });
-
-    const eventsData = createEvents(formattedEvents).value;
-    if (eventsData) fs.writeFileSync("UFC.ics", eventsData);
-
-    /** Numbered events (e.g. UFC 300), excluding Fight Night cards. */
-    const numberedEvents = events.filter(
-      (event) => !event.name.includes("Fight Night")
-    );
-    const formattedNumberedEvents = numberedEvents.map((event) =>
-      formatEventForCalendar(event, "UFC-Numbered")
-    );
-
-    const numberedEventsData = createEvents(formattedNumberedEvents).value;
-    if (numberedEventsData) fs.writeFileSync("UFC-Numbered.ics", numberedEventsData);
-  } catch (error) {
-    log.error("createICS failed", error);
   }
+  fs.writeFileSync("UFC.ics", eventsData);
+
+  /** Numbered events (e.g. UFC 300), excluding Fight Night cards. */
+  const numberedEvents = events.filter(
+    (event) => !event.name.includes("Fight Night")
+  );
+  const formattedNumberedEvents = numberedEvents.map((event) =>
+    formatEventForCalendar(event, "UFC-Numbered")
+  );
+
+  const numberedIcs = createEvents(formattedNumberedEvents);
+  const numberedEventsData = numberedIcs.value;
+  if (!numberedEventsData) {
+    throw new Error(
+      numberedIcs.error?.message
+        ? `Failed to build UFC-Numbered.ics: ${numberedIcs.error.message}`
+        : "Failed to build UFC-Numbered.ics (ics library returned no data)"
+    );
+  }
+  fs.writeFileSync("UFC-Numbered.ics", numberedEventsData);
 }
 
 function formatEventForCalendar(
@@ -78,4 +90,4 @@ function formatEventForCalendar(
   };
 }
 
-createICS();
+await createICS();
