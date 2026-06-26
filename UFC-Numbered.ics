@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: McGregor vs Holloway 2
-DTSTAMP:20260626T053004Z
+DTSTAMP:20260626T091108Z
 DTSTART:20260711T210000Z
 DTEND:20260712T040000Z
 DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
@@ -23,25 +23,25 @@ DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
 	ng Cong (#12) @125\nDamian Pinas vs. Cesar Almeida @185\nFarid Basharat vs
 	. Ethyn Ewing @135\nRyan Gandra vs. Zachary Reese @185\nOde' Osbourne vs. 
 	Cody Durden @125\n\nhttps://www.ufc.com/event/ufc-329\n\nAccurate as of Ju
-	n 26\, 1:30 AM EDT
+	n 26\, 5:11 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20260626T053004Z
+DTSTAMP:20260626T091108Z
 DTSTART:20260816T010000Z
 DTEND:20260816T040000Z
 DESCRIPTION:🏆 Islam Makhachev (C) vs. Ian Machado Garry (#1) @170\n🏆 Macken
 	zie Dern (C) vs. Gillian Robertson (#5) @115\nEdson Barboza vs. Esteban Ri
 	bovics @155\nErin Blanchfield (#4) vs. Jasmine Jasudavicius (#7) @125\n\nh
-	ttps://www.ufc.com/event/ufc-330\n\nAccurate as of Jun 26\, 1:30 AM EDT
+	ttps://www.ufc.com/event/ufc-330\n\nAccurate as of Jun 26\, 5:11 AM EDT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260626T053004Z
+DTSTAMP:20260626T091108Z
 DTSTART:20260615T000000Z
 DTEND:20260615T030000Z
 DESCRIPTION:Main Card — Sun\, Jun 14\, 8:00 PM EDT\n------------------\n🏆 I
@@ -50,13 +50,13 @@ DESCRIPTION:Main Card — Sun\, Jun 14\, 8:00 PM EDT\n------------------\n🏆 I
 	5) vs. Derrick Lewis (#9) @265\nMauricio Ruffy (#9) vs. Michael Chandler (
 	#13) @155\nBo Nickal vs. Kyle Daukaus @185\nDiego Lopes (#2) vs. Steve Gar
 	cia (#9) @145\n\nhttps://www.ufc.com/event/ufc-freedom-250\n\nAccurate as 
-	of Jun 26\, 1:30 AM EDT
+	of Jun 26\, 5:11 AM EDT
 LOCATION:The White House\, Washington\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-328
 SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260626T053004Z
+DTSTAMP:20260626T091108Z
 DTSTART:20260509T210000Z
 DTEND:20260510T040000Z
 DESCRIPTION:Main Card — Sat\, May 9\, 9:00 PM EDT\n------------------\n🏆 Kh
@@ -70,13 +70,13 @@ DESCRIPTION:Main Card — Sat\, May 9\, 9:00 PM EDT\n------------------\n🏆 Kh
 	before Main)\n------------------\nRoman Kopylov vs. Marco Tulio @185\nPat 
 	Sabatini vs. William Gomis @145\nBaisangur Susurkaev vs. Djorden Santos @1
 	85\nClayton Carpenter vs. Jose Ochoa @125\n\nhttps://www.ufc.com/event/ufc
-	-328\n\nAccurate as of Jun 26\, 1:30 AM EDT
+	-328\n\nAccurate as of Jun 26\, 5:11 AM EDT
 LOCATION:Prudential Center\, Newark\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260626T053004Z
+DTSTAMP:20260626T091108Z
 DTSTART:20260411T213000Z
 DTEND:20260412T040000Z
 DESCRIPTION:Main Card — Sat\, Apr 11\, 9:00 PM EDT\n------------------\n🏆 J
@@ -90,13 +90,13 @@ DESCRIPTION:Main Card — Sat\, Apr 11\, 9:00 PM EDT\n------------------\n🏆 J
 	EDT (3.5 hrs before Main)\n------------------\nChris Padilla vs. MarQuel M
 	ederos @155\nKelvin Gastelum vs. Vicente Luque @185\nCharles Radtke vs. Fr
 	ancisco Prado @170\n\nhttps://www.ufc.com/event/ufc-327\n\nAccurate as of 
-	Jun 26\, 1:30 AM EDT
+	Jun 26\, 5:11 AM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-326
 SUMMARY:UFC 326: Holloway vs Oliveira 2
-DTSTAMP:20260626T053004Z
+DTSTAMP:20260626T091108Z
 DTSTART:20260307T223000Z
 DTEND:20260308T050000Z
 DESCRIPTION:Main Card — Sat\, Mar 7\, 9:00 PM EST\n------------------\nMax 
@@ -109,7 +109,7 @@ DESCRIPTION:Main Card — Sat\, Mar 7\, 9:00 PM EST\n------------------\nMax
 	gal Tumendemberel @125\n\nEarly Prelims — Sat\, Mar 7\, 5:30 PM EST (3.5 h
 	rs before Main)\n------------------\nSumudaerji vs. Jesus Aguilar @125\nRa
 	fael Tobias vs. Diyar Nurgozhay @205\nLuke Fernandez vs. Rodolfo Bellato @
-	205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate as of Jun 26\, 1:30 A
+	205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate as of Jun 26\, 5:11 A
 	M EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
