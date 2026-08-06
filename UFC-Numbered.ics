@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20260815T210000Z
 DTEND:20260816T040000Z
 DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
@@ -20,13 +20,13 @@ DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
 	c McConico @185\nVicente Luque vs. Tresean Gore @185\n\nEarly Prelims — Sa
 	t\, Aug 15\, 5:00 PM EDT (4 hrs before Main)\n------------------\nNeil Mag
 	ny vs. Ramiz Brahimaj @170\nJeremiah Wells vs. Myktybek Orolbai @170\n\nht
-	tps://www.ufc.com/event/ufc-330\n\nAccurate as of Aug 6\, 2:29 AM EDT
+	tps://www.ufc.com/event/ufc-330\n\nAccurate as of Aug 6\, 6:37 AM EDT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-12-2026
 SUMMARY:Noche UFC: Rodriguez vs Silva
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20260912T210000Z
 DTEND:20260913T000000Z
 DESCRIPTION:Yair Rodriguez (#5) vs. Jean Silva (#6) @145\nWaldo Cortes Acos
@@ -35,13 +35,13 @@ DESCRIPTION:Yair Rodriguez (#5) vs. Jean Silva (#6) @145\nWaldo Cortes Acos
 	 vs. Dan Ige @135\nIgnacio Bahamondes vs. Muslim Salikhov @170\nTim Elliot
 	t (#13) vs. Edgar Chairez (#15) @125\nKelvin Gastelum vs. Yousri Belgaroui
 	 @185\nJJ Aldrich (#14) vs. Regina Tarin @125\n\nhttps://www.ufc.com/event
-	/ufc-fight-night-september-12-2026\n\nAccurate as of Aug 6\, 2:29 AM EDT
+	/ufc-fight-night-september-12-2026\n\nAccurate as of Aug 6\, 6:37 AM EDT
 LOCATION:Desert Diamond Arena\, Glendale\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/cryptocom-ufc-331
 SUMMARY:Crypto.com UFC 331: Van vs Pantoja 2
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20260920T010000Z
 DTEND:20260920T040000Z
 DESCRIPTION:🏆 Joshua Van (C) vs. Alexandre Pantoja (#1) @125\nArman Tsaruky
@@ -52,13 +52,13 @@ DESCRIPTION:🏆 Joshua Van (C) vs. Alexandre Pantoja (#1) @125\nArman Tsaruky
 	ze vs. Joanderson Brito @145\nPatricio Pitbull (#15) vs. Dooho Choi @145\n
 	Casey O'Neill (#12) vs. Eduarda Moura (#13) @125\nEdmen Shahbazyan vs. Bru
 	nno Ferreira @185\nMichael Aswell Jr. vs. JooSang Yoo @145\n\nhttps://www.
-	ufc.com/event/cryptocom-ufc-331\n\nAccurate as of Aug 6\, 2:29 AM EDT
+	ufc.com/event/cryptocom-ufc-331\n\nAccurate as of Aug 6\, 6:37 AM EDT
 LOCATION:Crypto.com Arena\, Los Angeles\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: McGregor vs Holloway 2
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20260711T210000Z
 DTEND:20260712T040000Z
 DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
@@ -73,13 +73,13 @@ DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
 	2) @125\nDamian Pinas vs. Cesar Almeida @185\nFarid Basharat (#15) vs. Joh
 	n Garza @135\nRyan Gandra vs. Zachary Reese @185\nAlessandro Costa vs. Cod
 	y Durden @125\n\nhttps://www.ufc.com/event/ufc-329\n\nAccurate as of Aug 6
-	\, 2:29 AM EDT
+	\, 6:37 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20260615T000000Z
 DTEND:20260615T030000Z
 DESCRIPTION:Main Card — Sun\, Jun 14\, 8:00 PM EDT\n------------------\n🏆 I
@@ -88,23 +88,23 @@ DESCRIPTION:Main Card — Sun\, Jun 14\, 8:00 PM EDT\n------------------\n🏆 I
 	5) vs. Derrick Lewis (#9) @265\nMauricio Ruffy (#9) vs. Michael Chandler (
 	#13) @155\nBo Nickal vs. Kyle Daukaus @185\nDiego Lopes (#2) vs. Steve Gar
 	cia (#9) @145\n\nhttps://www.ufc.com/event/ufc-freedom-250\n\nAccurate as 
-	of Aug 6\, 2:29 AM EDT
+	of Aug 6\, 6:37 AM EDT
 LOCATION:The White House\, Washington\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-333
 SUMMARY:UFC 333: TBD vs TBD
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20261024T220000Z
 DTEND:20261025T010000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-333\n\nAccurate as of Aug 6\, 2:2
-	9 AM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-333\n\nAccurate as of Aug 6\, 6:3
+	7 AM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-328
 SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20260509T210000Z
 DTEND:20260510T040000Z
 DESCRIPTION:Main Card — Sat\, May 9\, 9:00 PM EDT\n------------------\n🏆 Kh
@@ -112,19 +112,19 @@ DESCRIPTION:Main Card — Sat\, May 9\, 9:00 PM EDT\n------------------\n🏆 Kh
 	uro Taira (#3) @125\nAlexander Volkov (#2) vs. Waldo Cortes Acosta (#4) @2
 	65\nSean Brady (#6) vs. Joaquin Buckley (#9) @170\nKing Green vs. Jeremy S
 	tephens @155\n\nPrelims — Sat\, May 9\, 7:00 PM EDT (2 hrs before Main)\n-
-	-----------------\nAteba Gautier vs. Ozzy Diaz\nJoel Álvarez vs. Yaroslav 
-	Amosov (#14) @170\nGrant Dawson vs. Mateusz Rębecki\nJim Miller vs. Jared 
-	Gordon @155\n\nEarly Prelims — Sat\, May 9\, 5:00 PM EDT (4 hrs before Mai
-	n)\n------------------\nRoman Kopylov vs. Marco Tulio\nPat Sabatini vs. Wi
-	lliam Gomis @145\nBaisangur Susurkaev vs. Djorden Santos @185\nClayton Car
-	penter vs. Jose Ochoa @125\n\nhttps://www.ufc.com/event/ufc-328\n\nAccurat
-	e as of Aug 6\, 2:29 AM EDT
+	-----------------\nAteba Gautier vs. Ozzy Diaz @185\nJoel Álvarez vs. Yaro
+	slav Amosov (#14) @170\nGrant Dawson vs. Mateusz Rębecki @155\nJim Miller 
+	vs. Jared Gordon @155\n\nEarly Prelims — Sat\, May 9\, 5:00 PM EDT (4 hrs 
+	before Main)\n------------------\nRoman Kopylov vs. Marco Tulio @185\nPat 
+	Sabatini vs. William Gomis @145\nBaisangur Susurkaev vs. Djorden Santos @1
+	85\nClayton Carpenter vs. Jose Ochoa @125\n\nhttps://www.ufc.com/event/ufc
+	-328\n\nAccurate as of Aug 6\, 6:37 AM EDT
 LOCATION:Prudential Center\, Newark\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260806T062952Z
+DTSTAMP:20260806T103757Z
 DTSTART:20260411T213000Z
 DTEND:20260412T040000Z
 DESCRIPTION:Main Card — Sat\, Apr 11\, 9:00 PM EDT\n------------------\n🏆 J
@@ -138,7 +138,7 @@ DESCRIPTION:Main Card — Sat\, Apr 11\, 9:00 PM EDT\n------------------\n🏆 J
 	EDT (3.5 hrs before Main)\n------------------\nChris Padilla vs. MarQuel M
 	ederos @155\nKelvin Gastelum vs. Vicente Luque @185\nCharles Radtke vs. Fr
 	ancisco Prado @170\n\nhttps://www.ufc.com/event/ufc-327\n\nAccurate as of 
-	Aug 6\, 2:29 AM EDT
+	Aug 6\, 6:37 AM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 END:VEVENT
 END:VCALENDAR
