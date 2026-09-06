@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-12-2026
 SUMMARY:Noche UFC: Silva vs Delgado
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20260912T180000Z
 DTEND:20260913T000000Z
 DESCRIPTION:Main Card — Sat\, Sep 12\, 5:00 PM EDT\n------------------\nJea
@@ -21,13 +21,13 @@ DESCRIPTION:Main Card — Sat\, Sep 12\, 5:00 PM EDT\n------------------\nJea
 	Yousri Belgaroui vs. Djorden Santos @185\nDrakkar Klose vs. Tommy Gantt @1
 	55\nRafa Garcia vs. Rongzhu @155\nSean King vs. Jessie Rosas @145\nJJ Aldr
 	ich (#15) vs. Regina Tarin @125\n\nhttps://www.ufc.com/event/ufc-fight-nig
-	ht-september-12-2026\n\nAccurate as of Sep 5\, 5:56 PM EDT
+	ht-september-12-2026\n\nAccurate as of Sep 5\, 11:12 PM EDT
 LOCATION:Desert Diamond Arena\, Glendale\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/cryptocom-ufc-331
 SUMMARY:Crypto.com UFC 331: Van vs Pantoja 2
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20260919T210000Z
 DTEND:20260920T040000Z
 DESCRIPTION:Main Card — Sat\, Sep 19\, 9:00 PM EDT\n------------------\n🏆 J
@@ -41,29 +41,29 @@ DESCRIPTION:Main Card — Sat\, Sep 19\, 9:00 PM EDT\n------------------\n🏆 J
 	 EDT (4 hrs before Main)\n------------------\nRyan Gandra vs. Ozzy Diaz @1
 	85\nEdmen Shahbazyan vs. Brunno Ferreira @185\nCasey O'Neill (#12) vs. Edu
 	arda Moura (#13) @125\nGiga Chikadze vs. Joanderson Brito @145\n\nhttps://
-	www.ufc.com/event/cryptocom-ufc-331\n\nAccurate as of Sep 5\, 5:56 PM EDT
+	www.ufc.com/event/cryptocom-ufc-331\n\nAccurate as of Sep 5\, 11:12 PM EDT
 LOCATION:Crypto.com Arena\, Los Angeles\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-332
-SUMMARY:UFC 332: Silva vs Cong
-DTSTAMP:20260905T215621Z
+SUMMARY:UFC 332: Silva vs Wang
+DTSTAMP:20260906T031239Z
 DTSTART:20261004T000000Z
 DTEND:20261004T030000Z
 DESCRIPTION:🏆 Natalia Silva (#1) vs. Wang Cong (#8) @125\nDeiveson Figueire
 	do (#9) vs. Payton Talbott (#11) @135\nKhaos Williams vs. Roberto Soldic @
 	170\nAteba Gautier vs. Roman Kopylov @185\nImanol Rodriguez vs. Alden Cori
 	a @125\nDamian Pinas vs. Andrey Pulyaev @185\nMarcus McGhee (#15) vs. Bena
-	rdo Sopaj @135\nJohnny Walker vs. Mick Parkin @265\nRafael Dos Anjos vs. A
-	lexander Hernandez @155\nMarvin Vettori vs. Ismail Naurdiev @185\nCourt Mc
-	Gee vs. Eric Nolan @170\n\nhttps://www.ufc.com/event/ufc-332\n\nAccurate a
-	s of Sep 5\, 5:56 PM EDT
+	rdo Sopaj @135\nKing Green vs. Esteban Ribovics @155\nJohnny Walker vs. Mi
+	ck Parkin @265\nRafael Dos Anjos vs. Alexander Hernandez @155\nMarvin Vett
+	ori vs. Ismail Naurdiev @185\nCourt McGee vs. Eric Nolan @170\n\nhttps://w
+	ww.ufc.com/event/ufc-332\n\nAccurate as of Sep 5\, 11:12 PM EDT
 LOCATION:Delta Center\, Salt Lake City\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-333
 SUMMARY:UFC 333: Volkanovski vs Evloev
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20261024T180000Z
 DTEND:20261024T210000Z
 DESCRIPTION:🏆 Alexander Volkanovski (C) vs. Movsar Evloev (#1) @145\n🏆 Petr
@@ -72,24 +72,24 @@ DESCRIPTION:🏆 Alexander Volkanovski (C) vs. Movsar Evloev (#1) @145\n🏆 Pet
 	 Kavanagh (#6) vs. Ramazan Temirov (#10) @125\nNikita Krylov (#15) vs. Abd
 	ul Rakhman Yakhyaev @205\nAlexander Volkov (#2) vs. Rizvan Kuniev (#7) @26
 	5\nAbus Magomedov (#14) vs. Cam Rowston @185\nGrant Dawson vs. Nurullo Ali
-	ev @155\n\nhttps://www.ufc.com/event/ufc-333\n\nAccurate as of Sep 5\, 5:5
-	6 PM EDT
+	ev @155\n\nhttps://www.ufc.com/event/ufc-333\n\nAccurate as of Sep 5\, 11:
+	12 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/road-to-ufc-season-5-semifinals
 SUMMARY:Road To UFC: Maheshate vs Flowers
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20260828T090000Z
 DTEND:20260828T120000Z
 DESCRIPTION:Main Card — Fri\, Aug 28\, 5:00 AM EDT\n------------------\n\nh
 	ttps://www.ufc.com/event/road-to-ufc-season-5-semifinals\n\nAccurate as of
-	 Sep 5\, 5:56 PM EDT
+	 Sep 5\, 11:12 PM EDT
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20260815T213000Z
 DTEND:20260816T040000Z
 DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
@@ -102,34 +102,34 @@ DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
 	s. Tresean Gore @185\n\nEarly Prelims — Sat\, Aug 15\, 5:30 PM EDT (3.5 hr
 	s before Main)\n------------------\nRafael Tobias vs. Lucas Fernando @205\
 	nNeil Magny vs. Ramiz Brahimaj @170\nJeremiah Wells vs. Myktybek Orolbai @
-	170\n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Sep 5\, 5:56 PM
-	 EDT
+	170\n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Sep 5\, 11:12 P
+	M EDT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-334
 SUMMARY:Polymarket UFC 334: TBD vs TBD
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20261115T020000Z
 DTEND:20261115T050000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-334\n\nAccurate as of Sep 5\, 5:5
-	6 PM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-334\n\nAccurate as of Sep 5\, 11:
+	12 PM EDT
 LOCATION:Madison Square Garden\, New York\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-335
 SUMMARY:UFC 335: TBD vs TBD
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-335\n\nAccurate as of Sep 5\, 5:5
-	6 PM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-335\n\nAccurate as of Sep 5\, 11:
+	12 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: McGregor vs Holloway 2
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20260711T210000Z
 DTEND:20260712T040000Z
 DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
@@ -144,13 +144,13 @@ DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
 	2) @125\nDamian Pinas vs. Cesar Almeida @185\nFarid Basharat (#15) vs. Joh
 	n Garza @135\nRyan Gandra vs. Zachary Reese @185\nAlessandro Costa vs. Cod
 	y Durden @125\n\nhttps://www.ufc.com/event/ufc-329\n\nAccurate as of Sep 5
-	\, 5:56 PM EDT
+	\, 11:12 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260905T215621Z
+DTSTAMP:20260906T031239Z
 DTSTART:20260615T000000Z
 DTEND:20260615T030000Z
 DESCRIPTION:Main Card — Sun\, Jun 14\, 8:00 PM EDT\n------------------\n🏆 I
@@ -159,27 +159,7 @@ DESCRIPTION:Main Card — Sun\, Jun 14\, 8:00 PM EDT\n------------------\n🏆 I
 	5) vs. Derrick Lewis (#9) @265\nMauricio Ruffy (#9) vs. Michael Chandler (
 	#13) @155\nBo Nickal vs. Kyle Daukaus @185\nDiego Lopes (#2) vs. Steve Gar
 	cia (#9) @145\n\nhttps://www.ufc.com/event/ufc-freedom-250\n\nAccurate as 
-	of Sep 5\, 5:56 PM EDT
+	of Sep 5\, 11:12 PM EDT
 LOCATION:The White House\, Washington\, United States
-END:VEVENT
-BEGIN:VEVENT
-UID:https://www.ufc.com/event/ufc-328
-SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260905T215621Z
-DTSTART:20260509T210000Z
-DTEND:20260510T040000Z
-DESCRIPTION:Main Card — Sat\, May 9\, 9:00 PM EDT\n------------------\n🏆 Kh
-	amzat Chimaev (C) vs. Sean Strickland (#3) @185\n🏆 Joshua Van (C) vs. Tats
-	uro Taira (#3) @125\nAlexander Volkov (#2) vs. Waldo Cortes Acosta (#4) @2
-	65\nSean Brady (#6) vs. Joaquin Buckley (#9) @170\nKing Green vs. Jeremy S
-	tephens @155\n\nPrelims — Sat\, May 9\, 7:00 PM EDT (2 hrs before Main)\n-
-	-----------------\nAteba Gautier vs. Ozzy Diaz @185\nJoel Álvarez vs. Yaro
-	slav Amosov (#14) @170\nGrant Dawson vs. Mateusz Rębecki @155\nJim Miller 
-	vs. Jared Gordon @155\n\nEarly Prelims — Sat\, May 9\, 5:00 PM EDT (4 hrs 
-	before Main)\n------------------\nRoman Kopylov vs. Marco Tulio @185\nPat 
-	Sabatini vs. William Gomis @145\nBaisangur Susurkaev vs. Djorden Santos @1
-	85\nClayton Carpenter vs. Jose Ochoa @125\n\nhttps://www.ufc.com/event/ufc
-	-328\n\nAccurate as of Sep 5\, 5:56 PM EDT
-LOCATION:Prudential Center\, Newark\, United States
 END:VEVENT
 END:VCALENDAR
