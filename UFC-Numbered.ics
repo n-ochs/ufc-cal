@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-12-2026
 SUMMARY:Noche UFC: Silva vs Delgado
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20260912T210000Z
 DTEND:20260913T000000Z
 DESCRIPTION:Jean Silva (#6) vs. Jose Miguel Delgado @145\nBrandon Moreno (#
@@ -19,30 +19,30 @@ DESCRIPTION:Jean Silva (#6) vs. Jose Miguel Delgado @145\nBrandon Moreno (#
 	garoui vs. Djorden Santos @185\nDrakkar Klose vs. Tommy Gantt @155\nRafa G
 	arcia vs. Rongzhu @155\nSean King III vs. Jessie Rosas @145\nJJ Aldrich (#
 	15) vs. Regina Tarin @125\n\nhttps://www.ufc.com/event/ufc-fight-night-sep
-	tember-12-2026\n\nAccurate as of Sep 12\, 4:23 AM EDT
+	tember-12-2026\n\nAccurate as of Sep 12\, 11:05 AM EDT
 LOCATION:Desert Diamond Arena\, Glendale\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/cryptocom-ufc-331
 SUMMARY:Crypto.com UFC 331: Van vs Pantoja 2
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20260920T010000Z
 DTEND:20260920T040000Z
 DESCRIPTION:🏆 Joshua Van (C) vs. Alexandre Pantoja (#1) @125\nArman Tsaruky
-	an (#2) vs. Mauricio Ruffy (#7) @155\nPatricio Pitbull vs. Dooho Choi\nRen
-	ato Moicano (#11) vs. Brian Ortega @155\nAlonzo Menifield (#14) vs. Iwo Ba
-	raniewski @205\nGable Steveson vs. Sean Sharaf @265\nMarlon Vera (#10) vs.
-	 Charles Jourdain @135\nTai Tuivasa vs. Robelis Despaigne @265\nMichael As
-	well Jr. vs. JooSang Yoo @145\nRyan Gandra vs. Ozzy Diaz @185\nEdmen Shahb
-	azyan vs. Brunno Ferreira @185\nCasey O'Neill (#12) vs. Eduarda Moura (#13
-	) @125\nGiga Chikadze vs. Joanderson Brito @145\n\nhttps://www.ufc.com/eve
-	nt/cryptocom-ufc-331\n\nAccurate as of Sep 12\, 4:23 AM EDT
+	an (#2) vs. Mauricio Ruffy (#7) @155\nPatricio Pitbull (#15) vs. Dooho Cho
+	i @145\nRenato Moicano (#11) vs. Brian Ortega @155\nAlonzo Menifield (#14)
+	 vs. Iwo Baraniewski @205\nGable Steveson vs. Sean Sharaf @265\nMarlon Ver
+	a (#10) vs. Charles Jourdain @135\nTai Tuivasa vs. Robelis Despaigne @265\
+	nMichael Aswell Jr. vs. JooSang Yoo @145\nRyan Gandra vs. Ozzy Diaz @185\n
+	Edmen Shahbazyan vs. Brunno Ferreira @185\nCasey O'Neill (#12) vs. Eduarda
+	 Moura (#13) @125\nGiga Chikadze vs. Joanderson Brito @145\n\nhttps://www.
+	ufc.com/event/cryptocom-ufc-331\n\nAccurate as of Sep 12\, 11:05 AM EDT
 LOCATION:Crypto.com Arena\, Los Angeles\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-332
 SUMMARY:UFC 332: Silva vs Wang
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20261004T000000Z
 DTEND:20261004T030000Z
 DESCRIPTION:🏆 Natalia Silva (#1) vs. Wang Cong (#8) @125\nDeiveson Figueire
@@ -52,13 +52,13 @@ DESCRIPTION:🏆 Natalia Silva (#1) vs. Wang Cong (#8) @125\nDeiveson Figueire
 	aev @185\nMarcus McGhee (#15) vs. Benardo Sopaj @135\nJohnny Walker vs. Mi
 	ck Parkin @265\nRafael Dos Anjos vs. Alexander Hernandez @155\nMarvin Vett
 	ori vs. Ismail Naurdiev @185\nCourt McGee vs. Eric Nolan @170\n\nhttps://w
-	ww.ufc.com/event/ufc-332\n\nAccurate as of Sep 12\, 4:23 AM EDT
+	ww.ufc.com/event/ufc-332\n\nAccurate as of Sep 12\, 11:05 AM EDT
 LOCATION:Delta Center\, Salt Lake City\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-333
 SUMMARY:UFC 333: Volkanovski vs Evloev
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20261024T180000Z
 DTEND:20261024T210000Z
 DESCRIPTION:🏆 Alexander Volkanovski (C) vs. Movsar Evloev (#1) @145\n🏆 Petr
@@ -67,23 +67,23 @@ DESCRIPTION:🏆 Alexander Volkanovski (C) vs. Movsar Evloev (#1) @145\n🏆 Pet
 	 Kavanagh (#6) vs. Ramazan Temirov (#10) @125\nNikita Krylov (#15) vs. Abd
 	ul Rakhman Yakhyaev @205\nAlexander Volkov (#2) vs. Rizvan Kuniev (#7) @26
 	5\nAbus Magomedov (#12) vs. Cam Rowston @185\nGrant Dawson vs. Nurullo Ali
-	ev @155\n\nhttps://www.ufc.com/event/ufc-333\n\nAccurate as of Sep 12\, 4:
-	23 AM EDT
+	ev @155\n\nhttps://www.ufc.com/event/ufc-333\n\nAccurate as of Sep 12\, 11
+	:05 AM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/road-to-ufc-season-5-semifinals
 SUMMARY:Road To UFC: Maheshate vs Flowers
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20260828T090000Z
 DTEND:20260828T120000Z
 DESCRIPTION:https://www.ufc.com/event/road-to-ufc-season-5-semifinals\n\nAc
-	curate as of Sep 12\, 4:23 AM EDT
+	curate as of Sep 12\, 11:05 AM EDT
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20260816T010000Z
 DTEND:20260816T040000Z
 DESCRIPTION:🏆 Islam Makhachev (C) vs. Ian Machado Garry (#1) @170\n🏆 Macken
@@ -93,33 +93,33 @@ DESCRIPTION:🏆 Islam Makhachev (C) vs. Ian Machado Garry (#1) @170\n🏆 Macke
 	on vs. Eduardo Chapolin @CW\nDonte Johnson vs. Eric McConico @185\nVicente
 	 Luque vs. Tresean Gore @185\nRafael Tobias vs. Lucas Fernando @205\nNeil 
 	Magny vs. Ramiz Brahimaj @170\nJeremiah Wells vs. Myktybek Orolbai @170\n\
-	nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Sep 12\, 4:23 AM EDT
+	nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Sep 12\, 11:05 AM EDT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-334
 SUMMARY:Polymarket UFC 334: TBD vs TBD
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20261115T020000Z
 DTEND:20261115T050000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-334\n\nAccurate as of Sep 12\, 4:
-	23 AM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-334\n\nAccurate as of Sep 12\, 11
+	:05 AM EDT
 LOCATION:Madison Square Garden\, New York\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-335
 SUMMARY:UFC 335: TBD vs TBD
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-335\n\nAccurate as of Sep 12\, 4:
-	23 AM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-335\n\nAccurate as of Sep 12\, 11
+	:05 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: McGregor vs Holloway 2
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20260712T010000Z
 DTEND:20260712T040000Z
 DESCRIPTION:Conor McGregor vs. Max Holloway @170\nBenoît Saint Denis (#5) v
@@ -131,13 +131,13 @@ DESCRIPTION:Conor McGregor vs. Max Holloway @170\nBenoît Saint Denis (#5) v
 	125\nDamian Pinas vs. Cesar Almeida @185\nFarid Basharat (#15) vs. John Ga
 	rza @135\nRyan Gandra vs. Zachary Reese @185\nAlessandro Costa vs. Cody Du
 	rden @125\n\nhttps://www.ufc.com/event/ufc-329\n\nAccurate as of Sep 12\, 
-	4:23 AM EDT
+	11:05 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260912T082330Z
+DTSTAMP:20260912T150519Z
 DTSTART:20260615T000000Z
 DTEND:20260615T030000Z
 DESCRIPTION:🏆 Ilia Topuria (C) vs. Justin Gaethje (C) @155\n🏆 Alex Pereira 
@@ -145,7 +145,7 @@ DESCRIPTION:🏆 Ilia Topuria (C) vs. Justin Gaethje (C) @155\n🏆 Alex Pereira
 	nJosh Hokit (#5) vs. Derrick Lewis (#9) @265\nMauricio Ruffy (#9) vs. Mich
 	ael Chandler (#13) @155\nBo Nickal vs. Kyle Daukaus @185\nDiego Lopes (#2)
 	 vs. Steve Garcia (#9) @145\n\nhttps://www.ufc.com/event/ufc-freedom-250\n
-	\nAccurate as of Sep 12\, 4:23 AM EDT
+	\nAccurate as of Sep 12\, 11:05 AM EDT
 LOCATION:The White House\, Washington\, United States
 END:VEVENT
 END:VCALENDAR
