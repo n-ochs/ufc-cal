@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-333
 SUMMARY:UFC 333: Volkanovski vs Evloev
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20261024T140000Z
 DTEND:20261024T210000Z
 DESCRIPTION:Main Card — Sat\, Oct 24\, 2:00 PM EDT\n------------------\n🏆 A
@@ -23,13 +23,13 @@ DESCRIPTION:Main Card — Sat\, Oct 24\, 2:00 PM EDT\n------------------\n🏆 A
 	-------\nColby Thicknesse vs. Asaf Chopurov @135\nAbubakar Vagaev vs. Jaco
 	b Malkoun @185\nBolaji Oki vs. Daniel Santos @145\nKody Steele vs. Noah Gu
 	gnon @155\nIasmin Lucindo vs. Nicolle Caliari @115\n\nhttps://www.ufc.com/
-	event/ufc-333\n\nAccurate as of Oct 23\, 6:55 PM EDT
+	event/ufc-333\n\nAccurate as of Oct 23\, 11:30 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-334
 SUMMARY:Polymarket UFC 334: Gane vs Hokit
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20261114T220000Z
 DTEND:20261115T050000Z
 DESCRIPTION:Main Card — Sat\, Nov 14\, 9:00 PM EST\n------------------\n🏆 C
@@ -42,36 +42,36 @@ DESCRIPTION:Main Card — Sat\, Nov 14\, 9:00 PM EST\n------------------\n🏆 C
 	\nEarly Prelims — Sat\, Nov 14\, 5:00 PM EST (4 hrs before Main)\n--------
 	----------\nMacy Chiasson (#9) vs. Bia Mesquita (#11) @135\nAdrian Yanez v
 	s. Juan Diaz @135\nNazim Sadykhov vs. Jefferson Nascimento @155\n\nhttps:/
-	/www.ufc.com/event/ufc-334\n\nAccurate as of Oct 23\, 6:55 PM EDT
+	/www.ufc.com/event/ufc-334\n\nAccurate as of Oct 23\, 11:30 PM EDT
 LOCATION:Madison Square Garden\, New York\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-335
 SUMMARY:UFC 335: Oliveira vs Lopes
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
 DESCRIPTION:Charles Oliveira (#3) vs. Diego Lopes @155\nSergei Pavlovich (#
 	3) vs. Alex Pereira @265\nBrandon Moreno (#8) vs. Charles Johnson @125\nQu
 	entin Pasley vs. Junior Tafa @205\nJoe Pyfer (#6) vs. Bo Nickal (#14) @185
-	\n\nhttps://www.ufc.com/event/ufc-335\n\nAccurate as of Oct 23\, 6:55 PM E
-	DT
+	\n\nhttps://www.ufc.com/event/ufc-335\n\nAccurate as of Oct 23\, 11:30 PM 
+	EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-336
 SUMMARY:UFC 336: TBD vs TBD
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20270131T020000Z
 DTEND:20270131T050000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-336\n\nAccurate as of Oct 23\, 6:
-	55 PM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-336\n\nAccurate as of Oct 23\, 11
+	:30 PM EDT
 LOCATION:Scotiabank Arena\, Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-332
 SUMMARY:UFC 332: Silva vs Wang
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20261003T200000Z
 DTEND:20261004T030000Z
 DESCRIPTION:Main Card — Sat\, Oct 3\, 8:00 PM EDT\n------------------\n🏆 Na
@@ -85,13 +85,13 @@ DESCRIPTION:Main Card — Sat\, Oct 3\, 8:00 PM EDT\n------------------\n🏆 Na
 	----------\nJohnny Walker vs. Mick Parkin @265\nJacobe Smith vs. Bruce Whi
 	tehead @170\nRafael Dos Anjos vs. Alexander Hernandez @155\nMarvin Vettori
 	 vs. Ismail Naurdiev @185\nCourt McGee vs. Eric Nolan @170\n\nhttps://www.
-	ufc.com/event/ufc-332\n\nAccurate as of Oct 23\, 6:55 PM EDT
+	ufc.com/event/ufc-332\n\nAccurate as of Oct 23\, 11:30 PM EDT
 LOCATION:Delta Center\, Salt Lake City\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/cryptocom-ufc-331
 SUMMARY:Crypto.com UFC 331: Van vs Pantoja 2
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20260919T213000Z
 DTEND:20260920T040000Z
 DESCRIPTION:Main Card — Sat\, Sep 19\, 9:00 PM EDT\n------------------\n🏆 J
@@ -105,13 +105,13 @@ DESCRIPTION:Main Card — Sat\, Sep 19\, 9:00 PM EDT\n------------------\n🏆 J
 	s before Main)\n------------------\nEdmen Shahbazyan vs. Brunno Ferreira @
 	185\nCasey O'Neill (#12) vs. Eduarda Moura (#13) @125\nGiga Chikadze vs. J
 	oanderson Brito @145\n\nhttps://www.ufc.com/event/cryptocom-ufc-331\n\nAcc
-	urate as of Oct 23\, 6:55 PM EDT
+	urate as of Oct 23\, 11:30 PM EDT
 LOCATION:Crypto.com Arena\, Los Angeles\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-12-2026
 SUMMARY:Noche UFC: Silva vs Delgado
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20260912T180000Z
 DTEND:20260913T000000Z
 DESCRIPTION:Main Card — Sat\, Sep 12\, 5:00 PM EDT\n------------------\nJea
@@ -124,23 +124,23 @@ DESCRIPTION:Main Card — Sat\, Sep 12\, 5:00 PM EDT\n------------------\nJea
 	s. Djorden Santos @185\nDrakkar Klose vs. Tommy Gantt @155\nRafa Garcia vs
 	. Rongzhu @155\nSean King III vs. Jessie Rosas @145\nJJ Aldrich (#15) vs. 
 	Regina Tarin @125\n\nhttps://www.ufc.com/event/ufc-fight-night-september-1
-	2-2026\n\nAccurate as of Oct 23\, 6:55 PM EDT
+	2-2026\n\nAccurate as of Oct 23\, 11:30 PM EDT
 LOCATION:Desert Diamond Arena\, Glendale\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/road-to-ufc-season-5-semifinals
 SUMMARY:Road To UFC: Maheshate vs Flowers
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20260828T090000Z
 DTEND:20260828T120000Z
 DESCRIPTION:Main Card — Fri\, Aug 28\, 5:00 AM EDT\n------------------\n\nh
 	ttps://www.ufc.com/event/road-to-ufc-season-5-semifinals\n\nAccurate as of
-	 Oct 23\, 6:55 PM EDT
+	 Oct 23\, 11:30 PM EDT
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20260815T213000Z
 DTEND:20260816T040000Z
 DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
@@ -153,14 +153,14 @@ DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
 	s. Tresean Gore @185\n\nEarly Prelims — Sat\, Aug 15\, 5:30 PM EDT (3.5 hr
 	s before Main)\n------------------\nRafael Tobias vs. Lucas Fernando @205\
 	nNeil Magny vs. Ramiz Brahimaj @170\nJeremiah Wells vs. Myktybek Orolbai @
-	170\n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Oct 23\, 6:55 P
-	M EDT
+	170\n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Oct 23\, 11:30 
+	PM EDT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: McGregor vs Holloway 2
-DTSTAMP:20261023T225507Z
+DTSTAMP:20261024T033017Z
 DTSTART:20260711T210000Z
 DTEND:20260712T040000Z
 DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
@@ -175,7 +175,7 @@ DESCRIPTION:Main Card — Sat\, Jul 11\, 9:00 PM EDT\n------------------\nCon
 	2) @125\nDamian Pinas vs. Cesar Almeida @185\nFarid Basharat (#15) vs. Joh
 	n Garza @135\nRyan Gandra vs. Zachary Reese @185\nAlessandro Costa vs. Cod
 	y Durden @125\n\nhttps://www.ufc.com/event/ufc-329\n\nAccurate as of Oct 2
-	3\, 6:55 PM EDT
+	3\, 11:30 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 END:VCALENDAR
