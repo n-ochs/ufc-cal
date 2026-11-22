@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-335
 SUMMARY:UFC 335: Oliveira vs Lopes
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20261212T220000Z
 DTEND:20261213T050000Z
 DESCRIPTION:Main Card — Sat\, Dec 12\, 9:00 PM EST\n------------------\nCha
@@ -16,72 +16,72 @@ DESCRIPTION:Main Card — Sat\, Dec 12\, 9:00 PM EST\n------------------\nCha
 	 (#3) @265\n\nKyler Phillips vs. Ethyn Ewing @135\nDamian Pinas vs. Baisan
 	gur Susurkaev @185\n\nEarly Prelims — Sat\, Dec 12\, 5:00 PM EST (4 hrs be
 	fore Main)\n------------------\nQuentin Pasley vs. Junior Tafa @205\n\nhtt
-	ps://www.ufc.com/event/ufc-335\n\nAccurate as of Nov 22\, 10:57 AM EST
+	ps://www.ufc.com/event/ufc-335\n\nAccurate as of Nov 22\, 4:38 PM EST
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-336
 SUMMARY:UFC 336: Van vs Kape
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20270131T020000Z
 DTEND:20270131T050000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-336\n\nAccurate as of Nov 22\, 10
-	:57 AM EST
+DESCRIPTION:https://www.ufc.com/event/ufc-336\n\nAccurate as of Nov 22\, 4:
+	38 PM EST
 LOCATION:Scotiabank Arena\, Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-334
 SUMMARY:Polymarket UFC 334: Gane vs Hokit
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20261114T220000Z
 DTEND:20261115T050000Z
 DESCRIPTION:Main Card — Sat\, Nov 14\, 9:00 PM EST\n------------------\n\n\
 	n\n\n\n\nPrelims — Sat\, Nov 14\, 7:00 PM EST (2 hrs before Main)\n-------
 	-----------\n\n\n\n\n\nEarly Prelims — Sat\, Nov 14\, 5:00 PM EST (4 hrs b
 	efore Main)\n------------------\n\n\nAlatengheili vs. Juan Diaz @135\n\nht
-	tps://www.ufc.com/event/ufc-334\n\nAccurate as of Nov 22\, 10:57 AM EST
+	tps://www.ufc.com/event/ufc-334\n\nAccurate as of Nov 22\, 4:38 PM EST
 LOCATION:Madison Square Garden\, New York\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-333
 SUMMARY:UFC 333: Volkanovski vs Evloev
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20261024T140000Z
 DTEND:20261024T210000Z
 DESCRIPTION:Main Card — Sat\, Oct 24\, 2:00 PM EDT\n------------------\n\n\
 	n\n\n\n\nPrelims — Sat\, Oct 24\, 12:00 PM EDT (2 hrs before Main)\n------
 	------------\n\n\n\n\n\nEarly Prelims — Sat\, Oct 24\, 10:00 AM EDT (4 hrs
 	 before Main)\n------------------\n\nhttps://www.ufc.com/event/ufc-333\n\n
-	Accurate as of Nov 22\, 10:57 AM EST
+	Accurate as of Nov 22\, 4:38 PM EST
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-332
 SUMMARY:UFC 332: Silva vs Wang
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20261003T200000Z
 DTEND:20261004T030000Z
 DESCRIPTION:Main Card — Sat\, Oct 3\, 8:00 PM EDT\n------------------\n\n\n
 	\n\n\n\nPrelims — Sat\, Oct 3\, 6:00 PM EDT (2 hrs before Main)\n---------
 	---------\n\n\n\n\n\nEarly Prelims — Sat\, Oct 3\, 4:00 PM EDT (4 hrs befo
 	re Main)\n------------------\n\nhttps://www.ufc.com/event/ufc-332\n\nAccur
-	ate as of Nov 22\, 10:57 AM EST
+	ate as of Nov 22\, 4:38 PM EST
 LOCATION:Delta Center\, Salt Lake City\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-337
 SUMMARY:UFC 337: TBD vs TBD
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20270220T220000Z
 DTEND:20270221T010000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-337\n\nAccurate as of Nov 22\, 10
-	:57 AM EST
+DESCRIPTION:https://www.ufc.com/event/ufc-337\n\nAccurate as of Nov 22\, 4:
+	38 PM EST
 LOCATION:Kia Center\, Orlando\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/cryptocom-ufc-331
 SUMMARY:Crypto.com UFC 331: Van vs Pantoja 2
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20260919T213000Z
 DTEND:20260920T040000Z
 DESCRIPTION:Main Card — Sat\, Sep 19\, 9:00 PM EDT\n------------------\n🏆 J
@@ -95,13 +95,13 @@ DESCRIPTION:Main Card — Sat\, Sep 19\, 9:00 PM EDT\n------------------\n🏆 J
 	s before Main)\n------------------\nEdmen Shahbazyan vs. Brunno Ferreira @
 	185\nCasey O'Neill (#12) vs. Eduarda Moura (#13) @125\nGiga Chikadze vs. J
 	oanderson Brito @145\n\nhttps://www.ufc.com/event/cryptocom-ufc-331\n\nAcc
-	urate as of Nov 22\, 10:57 AM EST
+	urate as of Nov 22\, 4:38 PM EST
 LOCATION:Crypto.com Arena\, Los Angeles\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-12-2026
 SUMMARY:Noche UFC: Silva vs Delgado
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20260912T180000Z
 DTEND:20260913T000000Z
 DESCRIPTION:Main Card — Sat\, Sep 12\, 5:00 PM EDT\n------------------\nJea
@@ -114,23 +114,23 @@ DESCRIPTION:Main Card — Sat\, Sep 12\, 5:00 PM EDT\n------------------\nJea
 	s. Djorden Santos @185\nDrakkar Klose vs. Tommy Gantt @155\nRafa Garcia vs
 	. Rongzhu @155\nSean King III vs. Jessie Rosas @145\nJJ Aldrich (#15) vs. 
 	Regina Tarin @125\n\nhttps://www.ufc.com/event/ufc-fight-night-september-1
-	2-2026\n\nAccurate as of Nov 22\, 10:57 AM EST
+	2-2026\n\nAccurate as of Nov 22\, 4:38 PM EST
 LOCATION:Desert Diamond Arena\, Glendale\, United States
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/road-to-ufc-season-5-semifinals
 SUMMARY:Road To UFC: Maheshate vs Flowers
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20260828T090000Z
 DTEND:20260828T120000Z
 DESCRIPTION:Main Card — Fri\, Aug 28\, 5:00 AM EDT\n------------------\n\nh
 	ttps://www.ufc.com/event/road-to-ufc-season-5-semifinals\n\nAccurate as of
-	 Nov 22\, 10:57 AM EST
+	 Nov 22\, 4:38 PM EST
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20261122T155731Z
+DTSTAMP:20261122T213844Z
 DTSTART:20260815T213000Z
 DTEND:20260816T040000Z
 DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
@@ -143,8 +143,8 @@ DESCRIPTION:Main Card — Sat\, Aug 15\, 9:00 PM EDT\n------------------\n🏆 I
 	s. Tresean Gore @185\n\nEarly Prelims — Sat\, Aug 15\, 5:30 PM EDT (3.5 hr
 	s before Main)\n------------------\nRafael Tobias vs. Lucas Fernando @205\
 	nNeil Magny vs. Ramiz Brahimaj @170\nJeremiah Wells vs. Myktybek Orolbai @
-	170\n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Nov 22\, 10:57 
-	AM EST
+	170\n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Nov 22\, 4:38 P
+	M EST
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 END:VEVENT
 END:VCALENDAR
